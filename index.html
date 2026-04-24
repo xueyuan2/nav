@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Dashboard - Jamie</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        :root { --spacing: 1.5rem; }
+        body { padding: var(--spacing); background-color: #f4f7f9; }
+        .grid-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--spacing); }
+        article { padding: 1rem; border-top: 4px solid #1095c1; }
+        h5 { margin-bottom: 0.5rem; color: #1095c1; }
+        ul { list-style: none; padding: 0; }
+        li { margin-bottom: 0.4rem; }
+        a { text-decoration: none; font-weight: 500; }
+        a:hover { text-decoration: underline; }
+        .footer { margin-top: 2rem; font-size: 0.8rem; text-align: center; color: #666; }
+    </style>
+</head>
+<body>
+    <header>
+        <hgroup>
+            <h1>Scientific Research Dashboard</h1>
+            <p>Focus on Structural Biology & Plant Immunity</p>
+        </hgroup>
+    </header>
+
+    <main class="grid-container">
+        <article>
+            <h5>Top Tier Journals</h5>
+            <ul>
+                <li><a href="https://www.nature.com/nature/volumes/current" target="_blank">Nature - Current Issue</a></li>
+                <li><a href="https://www.science.org/toc/science/current" target="_blank">Science - First Release</a></li>
+                <li><a href="https://www.cell.com/cell/current" target="_blank">Cell - Current Issue</a></li>
+                <li><a href="https://www.pnas.org/toc/pnas/current" target="_blank">PNAS - In Progress</a></li>
+            </ul>
+        </article>
+
+        <article>
+            <h5>Structural Biology</h5>
+            <ul>
+                <li><a href="https://www.nature.com/nsmb/" target="_blank">Nature Structural & Molecular Biology</a></li>
+                <li><a href="https://www.sciencedirect.com/journal/journal-of-molecular-biology" target="_blank">JMB</a></li>
+                <li><a href="https://www.cell.com/structure/home" target="_blank">Structure (Cell Press)</a></li>
+                <li><a href="https://www.biorxiv.org/collection/structural-biology" target="_blank">bioRxiv - Structural Biology</a></li>
+            </ul>
+        </article>
+
+        <article>
+            <h5>Plant & Immunology</h5>
+            <ul>
+                <li><a href="https://www.nature.com/nplants/" target="_blank">Nature Plants</a></li>
+                <li><a href="https://academic.oup.com/plcell/issue" target="_blank">The Plant Cell</a></li>
+                <li><a href="https://www.cell.com/trends/plant-science/home" target="_blank">Trends in Plant Science</a></li>
+                <li><a href="https://www.nature.com/nri/" target="_blank">Nature Reviews Immunology</a></li>
+            </ul>
+        </article>
+
+        <article>
+            <h5>Databases & Tools</h5>
+            <ul>
+                <li><a href="https://www.rcsb.org/" target="_blank">PDB (RCSB)</a></li>
+                <li><a href="https://alphafold.ebi.ac.uk/" target="_blank">AlphaFold DB</a></li>
+                <li><a href="https://www.uniprot.org/" target="_blank">UniProt</a></li>
+                <li><a href="https://wenmr.science.uu.nl/haddock2.4/" target="_blank">HADDOCK 2.4</a></li>
+            </ul>
+        </article>
+    </main>
+
+    <footer class="footer">
+        Designed for Structural Biology Deep Work | Current Node: Direct Access Enabled
+    </footer>
+</body>
+</html>
